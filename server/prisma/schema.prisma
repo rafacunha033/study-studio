@@ -9,3 +9,8 @@ datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
 }
+
+model Playlist {
+  id String @id @default(uuid())
+  name String
+}
