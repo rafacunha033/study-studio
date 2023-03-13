@@ -21,8 +21,3 @@ model Book {
   completed_at  DateTime
 
 }
-
-model Book {
-  id String @id @default(uuid())
-  name String
-}
