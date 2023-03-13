@@ -14,3 +14,8 @@ model Playlist {
   id String @id @default(uuid())
   name String
 }
+
+model Book {
+  id String @id @default(uuid())
+  name String
+}
