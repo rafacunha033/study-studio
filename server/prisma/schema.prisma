@@ -11,11 +11,12 @@ datasource db {
 }
 
 model Playlist {
-  id String @id @default(uuid())
-  name String
+  id            String @id @default(uuid())
+  name          String
 }
 
 model Book {
-  id String @id @default(uuid())
-  name String
+  id            String @id @default(uuid())
+  name          String
+  completed_at  DateTime
 }
